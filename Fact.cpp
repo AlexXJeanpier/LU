@@ -140,7 +140,7 @@ int main() {
     for (int i = 0; i < n; ++i) 
     {
         for (int j = 0; j < n; ++j) {
-            cout << " Elemento [" << i << "][" << j << "]: ";
+            cout << " Elemento [" << i + 1 << "][" << j + 1 << "]: ";
             cin >> A[i][j];
         }
     }
